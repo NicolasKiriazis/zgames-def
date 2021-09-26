@@ -1,0 +1,30 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+
+
+}
+
+.pie {
+
+    height: 100px;
+    width: 100%;
+    background-color: #6ea0dd;
+    text-align: center;
+
+}
+
+.pie ul li {
+    
+    color: white;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+    margin: 5px;
+
+
+
+}

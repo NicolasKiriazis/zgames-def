@@ -1,0 +1,53 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    
+
+
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: #6ea0dd;
+    text-align:left;
+}
+
+
+
+
+nav ul{
+    text-align:center;
+}
+
+nav ul li{
+    display: inline-block; 
+    
+}
+
+
+.boton{
+    
+    border-radius: 6px;
+    border-color: white;
+    background: transparent;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+    margin: 5px;
+    
+}
+
+.carrito{
+    
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 2px; right: 10px;
+
+
+}
