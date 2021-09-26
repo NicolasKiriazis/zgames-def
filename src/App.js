@@ -11,8 +11,9 @@ import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
 import Home from './components/Home/Home'
 
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { BrowserRouter, Switch, Route,} from 'react-router-dom'
 import ItemListContainer from './components/Item/ItemListContainer/ItemListContainer';
+import ItemDetail from './components/Item/ItemDetail/ItemDetail';
 
 function App() {
 
@@ -22,6 +23,10 @@ function App() {
     <Navbar/>
     
     <Switch>
+
+    <Route  path="/product/:id">
+    <ItemDetail/>
+    </Route>
 
     <Route path="/products">
     <ItemListContainer/>

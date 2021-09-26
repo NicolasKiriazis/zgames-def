@@ -14,7 +14,8 @@ const ItemList = ({ products }) => {
 
             {products.map(product => <Item key={product.id} product={product} />)}
             {products.map(product => <ItemDetail key={product.id} product={product}/>)}
-
+            
+            
         </div>
     )
 

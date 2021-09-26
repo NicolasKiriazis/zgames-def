@@ -16,6 +16,7 @@ import img8 from '../../../assets/gamesimg/captaintsubasaps4.jpg'
 //Importacion setState y useEffect//
 
 import { useState, useEffect } from 'react'
+import {useParams} from 'react-router-dom'
 
 //Importaciones de Hijos //
 
@@ -75,6 +76,8 @@ const ItemListContainer = () => {
     //Usando useState para obtener el estado con el array//
     const [products, setProducts] = useState([])
 
+    const {id} = useParams()
+
     //Usando useEffect para cuando se ejecute la promesa luego setear el estado//
 
     useEffect(() => {
@@ -85,7 +88,7 @@ const ItemListContainer = () => {
             setProducts(producto)
         }, err => { console.log(err) })
 
-    }, [])
+    }, [id])
 
     // Pasando el estado por Props
 
